@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0181E442-B5DE-4E8C-AFBF-5BE74B8C5156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{15388146-597C-4CF0-B3EC-371CCCFC42DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLECS", "src\LLECS\LLECS.csproj", "{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLECS.Tests", "test\LLECS.Tests\LLECS.Tests.csproj", "{F894E533-08EA-4FE4-9B79-512F8E6759DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F894E533-08EA-4FE4-9B79-512F8E6759DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F894E533-08EA-4FE4-9B79-512F8E6759DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F894E533-08EA-4FE4-9B79-512F8E6759DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F894E533-08EA-4FE4-9B79-512F8E6759DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1F0F7EF-D9A9-48F0-B73F-51D3D19A84C7} = {0181E442-B5DE-4E8C-AFBF-5BE74B8C5156}
+		{F894E533-08EA-4FE4-9B79-512F8E6759DB} = {15388146-597C-4CF0-B3EC-371CCCFC42DD}
+	EndGlobalSection
+EndGlobal
