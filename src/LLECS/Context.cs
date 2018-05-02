@@ -13,12 +13,12 @@ namespace LLECS
         // TODO: System Grouping - Feature / Dispatcher
         public List<ISystem> Systems { get; private set; } = new List<ISystem>();
         // Entity
-        public Entity SpawnEntity()
+        public int SpawnEntity(Entity entity)
         {
-            var e = new Entity();
-            e.Id = IdInc++;
-            Entities[e.Id] = e;
-            return e;
+            var entityId = IdInc++;
+            entity.Id = entityId;
+            Entities[entityId] = entity;
+            return entityId;
         }
 
         public void Update()
